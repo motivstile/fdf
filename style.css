@@ -1,0 +1,39 @@
+.box {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    background-color: cyan;
+    animation: SanjareLlo 5s infinite;
+  }
+  
+@keyframes SanjareLlo {
+    0% {
+      top: 0;
+      right: 0;
+    }
+  
+    50% {
+      background-color: green;
+      border-radius: 50px;
+      left: 400px;
+      top: 400px;
+      right: 0;
+    }
+  
+    75% {
+      background-color: green;
+      border-radius: 50px;
+      left: 0;
+      top: 400px;
+      right: 400px;
+    }
+  
+    100% {
+      background-color: green;
+      border-radius: 50px;
+      left: 0;
+      top: 0;
+      right: 400px;
+    }
+  }
+  
